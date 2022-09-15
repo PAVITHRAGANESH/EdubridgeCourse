@@ -1,0 +1,30 @@
+package setinterface;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class set {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set <Integer> data = new LinkedHashSet<Integer>();
+		Set <Float> f1 = new LinkedHashSet<Float>();
+		Set <Double> d1 = new LinkedHashSet<Double>();
+		Set <Character> c1 = new LinkedHashSet<Character>();
+		Set <String> s1 = new LinkedHashSet<String>();
+		Set <Short> sh1 = new LinkedHashSet<Short>();
+		Set <Boolean> b1 = new LinkedHashSet<Boolean>();
+		data.add(12);
+		data.add(32);
+		f1.add(4.21f);
+		d1.add(5456.55554);
+		c1.add('p');
+		c1.add('i');
+		s1.add("pavi");
+		s1.add("div");
+		sh1.add((short) 2);
+		b1.add(true);
+		System.out.println(data+ " "+f1+" "+d1+" "+c1+" "+s1+" "+sh1+" "+b1);			
+
+	}
+
+}
